@@ -35,7 +35,7 @@ function retrieveFilesArray($folderId, $apiKey){
   // returns all files in GDrive folder
   $request = 'https://www.googleapis.com/drive/v3/files?pageSize=999&orderBy=name&q=%27'.$folderId.'%27+in+parents&fields=files(id%2CimageMediaMetadata%2Ftime%2CmimeType%2Cname)&key='.$apiKey;
   $response = get_url_content($request);
-  echo $response;
+//   echo $response;
   $response = json_decode($response, $assoc = true);
   $fileArray = $response['files'];
   return $fileArray;
@@ -170,7 +170,7 @@ $imageIds = retrieveImageIds($folderId, $apiKey);
 		} else {
 			$thumbnailSrc = "https://drive.google.com/thumbnail?authuser=0&sz=w".$thumbnailWidth."&id=".$thumbnailId;
 		}
-		if (showThumbnail){
+		if ($showThumbnail){
 			echo "<div class='ngal_foto'><img src='".$thumbnailSrc."' width='".$thumbnailWidth."'></div>";
 		}
         echo "<div class='ngal_content'>";
