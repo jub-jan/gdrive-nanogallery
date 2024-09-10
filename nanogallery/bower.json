@@ -1,38 +1,33 @@
 {
-  "name": "nanogallery",
-  "version": "5.10.3",
-  "homepage": "http://nanogallery.brisbois.fr",
+  "name": "nanogallery2",
+  "version": "3.0.5",
+  "homepage": "https://nanogallery2.nanostudio.org",
   "authors": [
     "Christophe Brisbois"
   ],
-	"description": "Image gallery simplified. Touch enabled, fully responsive, justified/cascading/grid layout and it supports cloud storage.",
-  "main": "dist/jquery.nanogallery.min.js",
+  "description": "modern photo / video gallery and lightbox.",
+  "main": "dist/jquery.nanogallery2.min.js",
   "keywords": [
+    "nanogallery",
+    "nanogallery2",
     "image",
     "gallery",
-    "portfolio",
     "photo",
+    "video",
     "photoset",
     "slideshow",
     "flickr",
-    "googleplus",
-    "picasa",
-    "effects",
+    "google photos",
     "swipe",
     "responsive",
-    "ui",
-    "mobile",
-    "ajax",
-    "lightbox",
-    "cloud",
-    "touchscreen",
-    "RTL"
+    "jquery-plugin"
   ],
-  "license": "CC BY-NC 3.0",
+  "license": "Dual: GPLv3 and commercial",
   "ignore": [
     "**/.*",
     "demonstration",
     "doc",
-    "third.party"
+    "third.party",
+    "screenshots"
   ]
 }
