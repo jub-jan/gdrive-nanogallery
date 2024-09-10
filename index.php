@@ -140,11 +140,9 @@ $imageIds = retrieveImageIds($folderId, $apiKey);
 		<title><?= $folderName ?></title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="text/javascript" src="jquery-3.7.1.min.js"></script> 
 		<link rel="stylesheet" href="bootstrap.min.css">
 		<script src="bootstrap.min.js"></script>
-		<!-- Add jQuery library (MANDATORY) -->
-		<script type="text/javascript" src="jquery-3.7.1.min.js"></script> 
-		<!-- Add nanoGALLERY plugin files (MANDATORY) -->
 		<link href="nanogallery/dist/css/nanogallery2.min.css" rel="stylesheet" type="text/css">
 		<script type="text/javascript" src="nanogallery/dist/jquery.nanogallery2.min.js"></script>
 		<link href="default.css" rel="stylesheet" type="text/css" media="screen">
